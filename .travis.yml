@@ -23,7 +23,7 @@ matrix:
   include:
   - os: linux-ppc64le
     jdk: openjdk8
-    env: JAVA_HOME="/usr/lib/jvm/open-jdk8"
+    env: JAVA_HOME=/usr/lib/jvm/open-jdk8
 
 addons:
   apt:
