@@ -23,11 +23,12 @@ matrix:
   include:
   - os: linux-ppc64le
     jdk: openjdk8
+
 addons:
   apt:
     packages:
-      - oracle-java8-installer
-      - oracle-java9-installer
+#      - oracle-java8-installer
+#      - oracle-java9-installer
       - maven
 
 env:
